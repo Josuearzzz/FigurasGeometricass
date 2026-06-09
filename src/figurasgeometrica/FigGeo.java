@@ -3,8 +3,8 @@ package figurasgeometrica;
 
 
 public abstract class FigGeo {
-    private double perimetro;
-    private double area;
+    public double perimetro;
+    public double area;
 
     public double getPerimetro() {
         return perimetro;
